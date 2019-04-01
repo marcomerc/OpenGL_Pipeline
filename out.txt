@@ -1,0 +1,167 @@
+scons: Reading SConscript files ...
+scons: done reading SConscript files.
+scons: Building targets ...
+g++ -o main.o -c -std=c++11 -g -Wall -O3 main.cpp
+g++ -o parse.o -c -std=c++11 -g -Wall -O3 parse.cpp
+g++ -o dump_png.o -c -std=c++11 -g -Wall -O3 dump_png.cpp
+g++ -o driver_state.o -c -std=c++11 -g -Wall -O3 driver_state.cpp
+g++ -o shaders.o -c -std=c++11 -g -Wall -O3 shaders.cpp
+g++ -o driver main.o parse.o dump_png.o driver_state.o shaders.o -lpng
+scons: done building targets.
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 3
+calling the rasterization 
+TODO: implement rasterization
+TODO: implement rendering.
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 3
+calling the rasterization 
+TODO: implement rasterization
+TODO: implement rendering.
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 6
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 6
+calling the rasterization 
+TODO: implement rasterization
+calling the rasterization 
+TODO: implement rasterization
+TODO: implement rendering.
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 6
+calling the rasterization 
+TODO: implement rasterization
+calling the rasterization 
+TODO: implement rasterization
+TODO: implement rendering.
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 6
+calling the rasterization 
+TODO: implement rasterization
+calling the rasterization 
+TODO: implement rasterization
+TODO: implement rendering.
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 6
+calling the rasterization 
+TODO: implement rasterization
+calling the rasterization 
+TODO: implement rasterization
+TODO: implement rendering.
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 6
+calling the rasterization 
+TODO: implement rasterization
+calling the rasterization 
+TODO: implement rasterization
+TODO: implement rendering.
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 9
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 6
+calling the rasterization 
+TODO: implement rasterization
+calling the rasterization 
+TODO: implement rasterization
+TODO: implement rendering.
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 3
+calling the rasterization 
+TODO: implement rasterization
+TODO: implement rendering.
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 3
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 3
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 10
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 8
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 9
+calling the rasterization 
+TODO: implement rasterization
+calling the rasterization 
+TODO: implement rasterization
+calling the rasterization 
+TODO: implement rasterization
+TODO: implement rendering.
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 15
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 3
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 3
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 3
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 6
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 3
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 3
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 69648
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 11610
+TODO: allocate and initialize state.image_color and state.image_depth.
+the number vertices 45
+calling the rasterization 
+TODO: implement rasterization
+calling the rasterization 
+TODO: implement rasterization
+calling the rasterization 
+TODO: implement rasterization
+FAIL: (00) Program failed to report statistics.
+no points
+FAIL: (01) Program failed to report statistics.
+no points
+FAIL: (02) Program failed to report statistics.
+no points
+FAIL: (03) Program failed to report statistics.
+no points
+FAIL: (04) Program failed to report statistics.
+no points
+FAIL: (05) Program failed to report statistics.
+no points
+FAIL: (06) Program failed to report statistics.
+no points
+FAIL: (07) Program failed to report statistics.
+no points
+FAIL: (08) Program failed to report statistics.
+no points
+FAIL: (09) Program failed to report statistics.
+no points
+FAIL: (10) Program failed to report statistics.
+no points
+FAIL: (11) Program failed to report statistics.
+no points
+FAIL: (12) Program failed to report statistics.
+no points
+FAIL: (13) Program failed to report statistics.
+no points
+FAIL: (14) Program failed to report statistics.
+no points
+FAIL: (15) Too much error. Actual: 50.2  Max: 1.
+no points
+FAIL: (16) Program failed to report statistics.
+no points
+FAIL: (17) Program failed to report statistics.
+no points
+FAIL: (18) Program failed to report statistics.
+no points
+FAIL: (19) Program failed to report statistics.
+no points
+FAIL: (20) Program failed to report statistics.
+no points
+FAIL: (21) Program failed to report statistics.
+no points
+FAIL: (22) Program failed to report statistics.
+no points
+FAIL: (23) Program failed to report statistics.
+no points
+FAIL: (24) Program failed to report statistics.
+no points
+FAIL: (25) Program failed to report statistics.
+no points
+FINAL SCORE: 0
